@@ -1,7 +1,8 @@
 # seek-challenge
+
 Project ms-holiday
 
-## Comenzando  🏁
+## Comenzando 🏁
 
 ### Prerrequisitos 📋
 
@@ -26,8 +27,6 @@ _**1**. Para la primera instancia necesitaremos confirmar que la versión de JDK
 java -version
 ```
 
-![img_2.png](src/main/resources/images/img_2.png)
-
 ### Maven
 
 _**2**. Validar versión de maven._
@@ -35,9 +34,6 @@ _**2**. Validar versión de maven._
 ```
 mvn -version
 ```
-
-
-![img_3.png](src/main/resources/images/img_3.png)
 
 ### Docker
 
@@ -47,21 +43,12 @@ _**3**. Validar versión de docker._
 docker --version
 ```
 
-
-![img_5.png](src/main/resources/images/img_5.png)
-
 ## Compilación y despliegue ⚙️ 🚀
 
 Ubicarse en la carpeta del proyecto
 
 ```
-/seek-challenge
-```
-
-Compilación de proyecto en Java
-
-```
-mvn clean install -DskipTests -Dflyway.skip=true
+/ms-holiday
 ```
 
 Construcción de imagen a nivel de docker
@@ -78,7 +65,7 @@ docker compose up
 
 ## Documentación Swagger 📚
 
-* _Swagger Ui -> [Ver](http://vps-4592450-x.dattaweb.com:8080/seek/challenge/swagger-ui/index.html#/)_
+* _Swagger Ui -> [Ver](http://localhost:8080/ms-holiday/swagger-ui/index.html)_
 
 
 

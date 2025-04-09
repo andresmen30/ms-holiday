@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-04-08T18:48:49-0500",
+    date = "2025-04-08T19:44:39-0500",
     comments = "version: 1.6.3, compiler: javac, environment: Java 21.0.6 (Amazon.com Inc.)"
 )
 @Component
@@ -34,14 +34,14 @@ public class HolidayMapperImpl implements HolidayMapper {
             return null;
         }
 
-        Holiday holiday = new Holiday();
+        Holiday.HolidayBuilder holiday = Holiday.builder();
 
-        holiday.setDate( holidayApiDto.getDate() );
-        holiday.setTitle( holidayApiDto.getTitle() );
-        holiday.setType( holidayApiDto.getType() );
-        holiday.setInalienable( holidayApiDto.isInalienable() );
-        holiday.setExtra( holidayApiDto.getExtra() );
+        holiday.date( holidayApiDto.getDate() );
+        holiday.title( holidayApiDto.getTitle() );
+        holiday.type( holidayApiDto.getType() );
+        holiday.inalienable( holidayApiDto.isInalienable() );
+        holiday.extra( holidayApiDto.getExtra() );
 
-        return holiday;
+        return holiday.build();
     }
 }

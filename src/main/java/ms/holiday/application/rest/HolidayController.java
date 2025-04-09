@@ -3,6 +3,10 @@ package ms.holiday.application.rest;
 import java.time.LocalDate;
 import java.util.List;
 
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
+import io.swagger.v3.oas.annotations.tags.Tag;
+
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,7 +19,7 @@ import lombok.RequiredArgsConstructor;
 import ms.holiday.domain.model.Holiday;
 import ms.holiday.domain.service.HolidayService;
 
-//@Tag(name = "Candidate", description = "CRUD")
+@Tag(name = "Holiday", description = "get holidays")
 @RestController
 @RequiredArgsConstructor
 @RequestMapping(value = "${rest.request.mapping}")
@@ -25,9 +29,12 @@ public class HolidayController {
 
    @GetMapping(value = "${rest.endpoint.holiday}")
    @ResponseStatus(HttpStatus.OK)
-   public List<Holiday> getHolidays(@RequestParam(required = false) String type,
-         @RequestParam(required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate from,
-         @RequestParam(required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate to) {
+   @Operation(summary = "get holidays filter", description = "return holidays filtered by type, from and to date")
+   public List<Holiday> getHolidays(@Parameter(description = "type holiday (optional)") @RequestParam(required = false) String type,
+         @Parameter(description = "from date (format yyyy-MM-dd, optional)") @RequestParam(required = false) @DateTimeFormat(iso =
+               DateTimeFormat.ISO.DATE) LocalDate from,
+         @Parameter(description = "to date (format yyyy-MM-dd, optional)") @RequestParam(required = false) @DateTimeFormat(iso =
+               DateTimeFormat.ISO.DATE) LocalDate to) {
       return holidayService.getHolidaysFilter(type, from, to);
    }
 
