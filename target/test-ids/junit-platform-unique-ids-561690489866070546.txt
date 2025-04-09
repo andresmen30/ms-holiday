@@ -1,0 +1,7 @@
+[engine:junit-jupiter]/[class:ms.holiday.infraestructure.exception.ExceptionHelperTest]/[method:testHandleException()]
+[engine:junit-jupiter]/[class:ms.holiday.infraestructure.exception.ExceptionHelperTest]/[method:handleConstraintViolationException()]
+[engine:junit-jupiter]/[class:ms.holiday.infraestructure.exception.ExceptionHelperTest]/[method:handleMethodArgumentNotValid()]
+[engine:junit-jupiter]/[class:ms.holiday.infraestructure.exception.ExceptionHelperTest]/[method:handleMethodArgumentTypeMismatch()]
+[engine:junit-jupiter]/[class:ms.holiday.MsHolidayApplicationTests]/[method:contextLoads()]
+[engine:junit-jupiter]/[class:ms.holiday.application.rest.HolidayControllerTest]/[method:getHolidays()]
+[engine:junit-jupiter]/[class:ms.holiday.application.rest.HolidayControllerTest]/[method:getHolidaysFilter()]

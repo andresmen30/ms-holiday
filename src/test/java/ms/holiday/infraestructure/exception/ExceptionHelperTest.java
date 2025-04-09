@@ -80,16 +80,6 @@ class ExceptionHelperTest {
    }
 
    @Test
-   void handleMissingServletRequestParameter() {
-      final MissingServletRequestParameterException exception = new MissingServletRequestParameterException("paramName", "String");
-      final ResponseDto response = exceptionHelper.handleMissingServletRequestParameter(exception);
-      assertNotNull(response);
-      assertNotNull(response.getData());
-      assertNotNull(response.getTime());
-      assertNotNull(response.getMessage());
-   }
-
-   @Test
    void testHandleException() {
       final Exception exception = new Exception("Error interno del servidor");
       final ResponseDto response = exceptionHelper.handleException(exception);

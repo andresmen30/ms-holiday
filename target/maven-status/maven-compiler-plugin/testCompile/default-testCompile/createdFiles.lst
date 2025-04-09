@@ -1,0 +1,4 @@
+ms/holiday/MsHolidayApplicationTests.class
+ms/holiday/application/rest/HolidayControllerTest.class
+ms/holiday/infraestructure/exception/ExceptionHelperTest.class
+ms/holiday/mock/HolidayMock.class
