@@ -9,6 +9,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -27,7 +28,7 @@ public class HolidayController {
 
    private final HolidayService holidayService;
 
-   @GetMapping(value = "${rest.endpoint.holiday}")
+   @GetMapping(value = "${rest.endpoint.holiday}", produces = { MediaType.APPLICATION_JSON_VALUE, MediaType.APPLICATION_XML_VALUE })
    @ResponseStatus(HttpStatus.OK)
    @Operation(summary = "get holidays filter", description = "return holidays filtered by type, from and to date")
    public List<Holiday> getHolidays(@Parameter(description = "type holiday (optional)") @RequestParam(required = false) String type,
