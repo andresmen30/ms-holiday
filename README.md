@@ -1,4 +1,4 @@
-# seek-challenge
+# ms-holiday
 
 Project ms-holiday
 
