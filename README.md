@@ -63,21 +63,21 @@ Despliegue de proyecto
 docker compose up
 ```
 
-
-## Como probar 
+## Como probar
 
 para JSON
+
 ```
 curl --location 'http://localhost:8080/ms-holiday/api/holiday?type=Religioso&from=2025-04-18&to=2025-04-19' \
 --header 'Accept: application/json'
 ```
 
 para XML
+
 ```
 curl --location 'http://localhost:8080/ms-holiday/api/holiday?type=Religioso&from=2025-04-18&to=2025-04-19' \
 --header 'Accept: application/xml'
 ```
-
 
 ## Documentación Swagger 📚
 

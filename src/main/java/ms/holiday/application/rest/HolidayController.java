@@ -17,9 +17,11 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
 import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
 import ms.holiday.domain.model.Holiday;
 import ms.holiday.domain.service.HolidayService;
 
+@Slf4j
 @Tag(name = "Holiday", description = "get holidays")
 @RestController
 @RequiredArgsConstructor
@@ -36,6 +38,7 @@ public class HolidayController {
                DateTimeFormat.ISO.DATE) LocalDate from,
          @Parameter(description = "to date (format yyyy-MM-dd, optional)") @RequestParam(required = false) @DateTimeFormat(iso =
                DateTimeFormat.ISO.DATE) LocalDate to) {
+      log.info("HolidayController.getHolidays({}, {}, {})", type, from, to);
       return holidayService.getHolidaysFilter(type, from, to);
    }
 

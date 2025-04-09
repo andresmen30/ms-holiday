@@ -2,7 +2,6 @@ package ms.holiday.infraestructure.exception.dto;
 
 import java.time.LocalDateTime;
 
-
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import com.fasterxml.jackson.databind.PropertyNamingStrategies;

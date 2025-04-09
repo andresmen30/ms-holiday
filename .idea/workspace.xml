@@ -5,30 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4808efa-0dde-4c53-bfc2-9eda08db1ecb" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ms/holiday/application/rest/HolidayController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ms/holiday/application/rest/HolidayController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ms/holiday/infraestructure/client/dto/HolidayApiResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ms/holiday/infraestructure/client/dto/HolidayApiResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ms/holiday/infraestructure/exception/ExceptionHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ms/holiday/infraestructure/exception/ExceptionHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ms/holiday/application/runner/StartupRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ms/holiday/application/runner/StartupRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ms/holiday/domain/service/HolidayService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ms/holiday/domain/service/HolidayService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ms/holiday/domain/service/HolidayServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ms/holiday/domain/service/HolidayServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ms/holiday/infraestructure/client/HolidayApiClientImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ms/holiday/infraestructure/client/HolidayApiClientImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ms/holiday/infraestructure/client/dto/HolidayApiDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ms/holiday/infraestructure/client/dto/HolidayApiDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ms/holiday/infraestructure/exception/dto/ResponseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ms/holiday/infraestructure/exception/dto/ResponseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ms/holiday/infraestructure/util/ResponseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ms/holiday/infraestructure/util/ResponseUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ms/holiday/application/rest/HolidayControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ms/holiday/application/rest/HolidayControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ms/holiday/application/rest/HolidayController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ms/holiday/application/rest/HolidayController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ms/holiday/infraestructure/client/dto/HolidayApiResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ms/holiday/infraestructure/client/dto/HolidayApiResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ms/holiday/infraestructure/exception/ExceptionHelper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ms/holiday/infraestructure/exception/ExceptionHelper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/ms/holiday/application/mapper/HolidayMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/ms/holiday/application/mapper/HolidayMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ms-holiday-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/ms-holiday-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-ms.holiday.MsHolidayApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/ms.holiday.MsHolidayApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ms/holiday/MsHolidayApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ms/holiday/application/rest/HolidayControllerTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ms/holiday/infraestructure/exception/ExceptionHelperTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ms/holiday/mock/HolidayMock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-ids/junit-platform-unique-ids-33982673354117232.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ms/holiday/application/runner/StartupRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ms/holiday/application/runner/StartupRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ms/holiday/domain/service/HolidayServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ms/holiday/domain/service/HolidayServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ms/holiday/infraestructure/client/HolidayApiClientImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ms/holiday/infraestructure/client/HolidayApiClientImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ms/holiday/infraestructure/client/dto/HolidayApiDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ms/holiday/infraestructure/client/dto/HolidayApiDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ms/holiday/infraestructure/exception/dto/ResponseDto$ResponseDtoBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ms/holiday/infraestructure/exception/dto/ResponseDto$ResponseDtoBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ms/holiday/infraestructure/exception/dto/ResponseDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ms/holiday/infraestructure/exception/dto/ResponseDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ms/holiday/infraestructure/util/ResponseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ms/holiday/infraestructure/util/ResponseUtil.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +189,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1744156070170</updated>
-      <workItem from="1744156071306" duration="5900000" />
+      <workItem from="1744156071306" duration="6303000" />
     </task>
     <servers />
   </component>

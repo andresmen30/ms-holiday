@@ -9,6 +9,6 @@ public interface HolidayService {
 
    List<Holiday> getHolidays();
 
-   List<Holiday>  getHolidaysFilter(final String type, final LocalDate from, final LocalDate to);
+   List<Holiday> getHolidaysFilter(final String type, final LocalDate from, final LocalDate to);
 
 }

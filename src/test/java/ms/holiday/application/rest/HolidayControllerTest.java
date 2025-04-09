@@ -61,13 +61,14 @@ class HolidayControllerTest {
    void getHolidaysFilter() throws Exception {
       log.info("(getHolidaysFilter)");
       when(holidayService.getHolidaysFilter(any(), any(), any())).thenReturn(holidays);
-      mockMvc.perform(get(StringUtils.join(restUri, endpointHoliday)).contentType(MediaType.APPLICATION_JSON)
-                                                                     .param("filter", "all")
-                                                                     .param("filter", "all")
-                                                                     .param("filter", "all"))
-             .andExpect(status().isOk());
+      mockMvc
+            .perform(get(StringUtils.join(restUri, endpointHoliday))
+                  .contentType(MediaType.APPLICATION_JSON)
+                  .param("filter", "all")
+                  .param("filter", "all")
+                  .param("filter", "all"))
+            .andExpect(status().isOk());
       log.info("(getHolidaysFilter) [[end]]");
    }
-
 
 }

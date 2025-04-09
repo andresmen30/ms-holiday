@@ -23,8 +23,7 @@ public class HolidayApiClientImpl implements HolidayApiClient {
 
    public HolidayApiResponse getHolidays() {
 
-      return getWebClient().get().uri(holidaysUri).retrieve()
-                           .bodyToMono(HolidayApiResponse.class).block();
+      return getWebClient().get().uri(holidaysUri).retrieve().bodyToMono(HolidayApiResponse.class).block();
 
    }
 

@@ -14,9 +14,13 @@ import lombok.ToString;
 public class HolidayApiDto {
 
    private LocalDate date;
+
    private String title;
+
    private String type;
+
    private boolean inalienable;
+
    private String extra;
 
 }
