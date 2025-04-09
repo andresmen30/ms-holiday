@@ -14,7 +14,6 @@ Project ms-holiday
 * _Junit_
 * _Mockito_
 * _OpenApi - Swagger_
-* _Mysql_
 * _Intellij_
 
 ## Instalación y configuración 🔧
